@@ -1,5 +1,5 @@
 # MO_ARBOL_BINARIO
-	Proyecto de árboles binarios prueba MO
+	Proyecto de árboles binarios prueba MO Tecnologías
 
 # PROBAR FUNCIONAMIENTO.
 	1. Descargar el repositorio completo.
@@ -8,7 +8,7 @@
   
 2022-03-09 09:24:36.160  INFO 17944 --- [           main] mo.binarytree.BinaryTreeApplication      : Started BinaryTreeApplication in 2.168 seconds (JVM running for 2.52)
 
-	4. Cargar la archivo mo.postman_collection.json en Postman.
+	4. Cargar el archivo mo.postman_collection.json en Postman.
   	5. Buscar en Postman la colección con el nombre MO.
 	6. Enviar peticiones desde Postman.
 
