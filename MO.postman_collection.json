@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "256ea639-842d-411d-af5e-3791ed83018c",
+		"name": "MO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8090/APIBinaryTree/getBinaryTree",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "listnumbers",
+							"value": "67",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "76",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "44",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "74",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "85",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "83",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "87",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8090/APIBinaryTree/getBinaryTree",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"APIBinaryTree",
+						"getBinaryTree"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/APIBinaryTree/lookForAncestor?numberOne=29&numberTwo=44",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "listnumbers",
+							"value": "67",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "76",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "44",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "74",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "85",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "83",
+							"type": "text"
+						},
+						{
+							"key": "listnumbers",
+							"value": "87",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8090/APIBinaryTree/lookForAncestor?numberOne=29&numberTwo=44",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"APIBinaryTree",
+						"lookForAncestor"
+					],
+					"query": [
+						{
+							"key": "numberOne",
+							"value": "29"
+						},
+						{
+							"key": "numberTwo",
+							"value": "44"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
